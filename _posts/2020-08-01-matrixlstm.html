@@ -1,0 +1,54 @@
+---
+layout:
+category: featured
+title: "A Differentiable Recurrent Surface for Asynchronous Event-Based Data"
+conference: "ECCV 2020"
+href: https://arxiv.org/abs/2001.03455
+short: "matrixlstm" 
+image: images/matrixlstm_overview.jpg
+alt: MatrixLSTM Overview
+author: Marco Ciccone
+index: 7
+---
+
+{% assign people = site.data.people %}
+
+<!-- Work -->
+<tr style="border-bottom:1px solid #e5e5e5;">
+    <!-- IMAGE -->
+    <td>
+        <img class="workPicture" src="{{ page.image }}" alt="{{ page.alt }}">
+    </td>
+
+    <!-- TITLE AND INFO -->
+    <td>
+        <br>
+        <div id="indexWorkText">
+            <!-- Title + Link -->
+            <b>{% include link.html name=page.title href=page.href short=page.short %}</b>
+            <br>
+            <i>{{ page.conference}}</i> {% if page.award %} - <b>{{ page.award }}</b> {% endif%}
+            <br>
+            {% include link.html name="Project page" href="https://marcocannici.github.io/matrixlstm" short="matrixlstm project page" %},
+            {% include link.html name="Code" href="https://github.com/marcocannici/matrixlstm" short="matrixlstm code" %},
+            {% include link.html name="1min video" href="http://tiny.cc/MatrixLSTM1min" short="matrixlstm short video" %},
+            {% include link.html name="10min video" href="http://tiny.cc/MatrixLSTM10min" short="matrixlstm long video" %}
+        </div>
+        <br>
+        <!-- One sentence description -->
+        <div id="indexWorkText">
+            We reconstruct a dense feature representation from sparse events using a grid of LSTM cells 
+            so that we could apply standard frame-based CNNs architectures for tasks such as image recognition and optical flow.
+        </div>
+        <br>
+
+        <!-- Collaborators -->
+        <div id="indexWorkText">
+            Led by {% include link.html name=people.cannici.name href=people.cannici.scholar short=people.cannici.shortname %},
+            joint with myself, 
+            {% include link.html name=people.romanoni.name href=people.romanoni.scholar short=people.romanoni.shortname %} and
+            {% include link.html name=people.matteucci.name href=people.matteucci.scholar short=people.matteucci.shortname %}
+        </div>
+        <br>
+    </td>
+</tr>

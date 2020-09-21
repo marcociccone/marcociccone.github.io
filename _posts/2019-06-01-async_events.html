@@ -1,0 +1,51 @@
+---
+layout:
+category: featured
+title: "Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras" 
+conference: "Event-based Vision and Smart Cameras CVPR Workshop 2019"
+award: "Best Paper Award"
+href: https://arxiv.org/abs/1805.07931
+short: "async conv" 
+image: images/async_conv_overview.jpg
+alt: Async Conv Overview
+author: Marco Ciccone
+index: 5
+---
+
+{% assign people = site.data.people %}
+
+<!-- Work -->
+<tr style="border-bottom:1px solid #e5e5e5;">
+    <!-- IMAGE -->
+    <td>
+        <img class="workPicture" src="{{ page.image }}" alt="{{ page.alt }}">
+    </td>
+
+    <!-- TITLE AND INFO -->
+    <td>
+        <br>
+        <div id="indexWorkText">
+            <!-- Title + Link -->
+            <b>{% include link.html name=page.title href=page.href short=page.short %}</b>
+            <br>
+            <i>{{ page.conference}}</i> {% if page.award %} - <b>{{ page.award }}</b> {% endif%}
+            <br>
+            {% include link.html name="Video" href="https://www.youtube.com/watch?v=JKRSeg3WrGw&list=PLeXWz-g2If97iGiuBHmnW8IFIxwvSeCHx&index=23" short="video async conv" %}
+        </div>
+        <br>
+        <!-- One sentence description -->
+        <div id="indexWorkText">
+            We propose a novel approach to passing event-data through a CNN that respects the asynchronous nature of DVS sensors.
+        </div>
+        <br>
+
+        <!-- Collaborators -->
+        <div id="indexWorkText">
+            Led by {% include link.html name=people.cannici.name href=people.cannici.scholar short=people.cannici.shortname %},
+            joint with myself, 
+            {% include link.html name=people.romanoni.name href=people.romanoni.scholar short=people.romanoni.shortname %} and
+            {% include link.html name=people.matteucci.name href=people.matteucci.scholar short=people.matteucci.shortname %}
+        </div>
+        <br>
+    </td>
+</tr>

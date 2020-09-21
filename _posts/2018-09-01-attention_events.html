@@ -1,0 +1,50 @@
+---
+layout:
+category: featured
+title: "Attention Mechanisms for Object Recognition with Event-Based Cameras"
+conference: "WACV 2019"
+href: https://arxiv.org/abs/1807.09480
+short: "attention event" 
+image: images/attention_event_overview.jpg
+alt: Attention Event Overview
+author: Marco Ciccone
+index: 4
+---
+
+{% assign people = site.data.people %}
+
+<!-- Work -->
+<tr style="border-bottom:1px solid #e5e5e5;">
+    <!-- IMAGE -->
+    <td>
+        <img class="workPicture" src="{{ page.image }}" alt="{{ page.alt }}">
+    </td>
+
+    <!-- TITLE AND INFO -->
+    <td>
+        <br>
+        <div id="indexWorkText">
+            <!-- Title + Link -->
+            <b>{% include link.html name=page.title href=page.href short=page.short %}</b>
+            <br>
+            <i>{{ page.conference}}</i> {% if page.award %} - <b>{{ page.award }}</b> {% endif%}
+        </div>
+        <br>
+        <!-- One sentence description -->
+        <div id="indexWorkText">
+            We propose two attentive models for event-based vision: an algorithm that tracks events activity within
+            the field of view to locate regions of interest and a fully differentiable attention procedure based on 
+            {% include link.html name="DRAW" href="https://arxiv.org/abs/1502.04623" short="DRAW" %} neural model. 
+        </div>
+        <br>
+
+        <!-- Collaborators -->
+        <div id="indexWorkText">
+            Led by {% include link.html name=people.cannici.name href=people.cannici.scholar short=people.cannici.shortname %},
+            joint with myself, 
+            {% include link.html name=people.romanoni.name href=people.romanoni.scholar short=people.romanoni.shortname %} and
+            {% include link.html name=people.matteucci.name href=people.matteucci.scholar short=people.matteucci.shortname %}
+        </div>
+        <br>
+    </td>
+</tr>

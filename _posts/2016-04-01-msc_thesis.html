@@ -1,0 +1,47 @@
+---
+layout:
+category: featured
+title: "Semantic Segmentation of Urban Scenes using Recurrent Deep Neural Networks"
+href: "assets/msc_thesis.pdf"
+conference: "M.Sc Thesis, 2016"
+short: M.Sc Thesis
+image: images/msc_thesis_overview.jpg
+alt: M.Sc. Thesis overview
+author: Marco Ciccone
+index: 0
+---
+
+{% assign people = site.data.people %}
+
+<!-- Work -->
+<tr style="border-bottom:1px solid #e5e5e5;">
+    <!-- IMAGE -->
+    <td>
+        <img class="workPicture" src="{{ page.image }}" alt="{{ page.alt }}">
+    </td>
+
+    <!-- TITLE AND INFO -->
+    <td>
+        <br>
+        <div id="indexWorkText">
+            <!-- Title + Link -->
+            <b>{% include link.html name=page.title href=page.href short=page.short %}</b>
+            <br>
+            <i>{{ page.conference}}</i> {% if page.award %} - <b>{{ page.award }}</b> {% endif%}
+        </div>
+        <br>
+        <!-- One sentence description -->
+        <div id="indexWorkText">
+            My neural baptism: recurrent and convolutional networks for semantic segmentation.
+        </div>
+        <br>
+
+        <!-- Collaborators -->
+        <div id="indexWorkText">
+            Advised by
+            {% include link.html name=people.visin.name href=people.visin.scholar short=people.visin.shortname %} and
+            {% include link.html name=people.matteucci.name href=people.matteucci.scholar short=people.matteucci.shortname %}
+        </div>
+        <br>
+    </td>
+</tr>

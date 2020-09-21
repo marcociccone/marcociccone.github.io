@@ -1,24 +1,24 @@
 # Site settings
-title:          "Name Surname"
+title:          "Marco Ciccone"
 description:    "Academic website"
 baseurl:        "/"
-url:            "https://yourwebsite.github.io"
+url:            "https://marcociccone.github.io"
 
 # Author
 author:
-  name:         Name Surname
-  url:          https://yourwebsite.github.io
-  email:        name.surname@polimi.it
-  github:       your_id
-  twitter:      your_id
-  linkedin:     your_id
-  scholar:      your_id
+  name:         Marco Ciccone
+  url:          https://marcociccone.github.io
+  email:        marco.ciccone@polimi.it
+  github:       marcociccone
+  twitter:      marcuswallacej
+  linkedin:     cicconemarco
+  scholar:      hOQjblcAAAAJ
 
 # Analytics
 analytics:
   provider               : google
   google:
-    tracking_id          : yourid
+    tracking_id          : UA-117939428-1
 
 contact_note: If you want to discuss about research ideas and opportunities, please drop me an email
 
@@ -29,21 +29,38 @@ disqus_shortname: # put your disqus shortname
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Build settings
-markdown: kramdown
-hightlighter: rouge
+# Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   math_engine: mathjax
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+sass:
+  sass_dir: _sass
+  style: :compressed # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  #  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Includes
 include: ['_pages']
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - command.txt
+  - todo.txt
 
 enable_anchorjs:    false
 enable_katex:       false

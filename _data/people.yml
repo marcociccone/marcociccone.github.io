@@ -1,0 +1,143 @@
+visin:
+  name: "Francesco Visin"
+  shortname: "F. Visin"
+  affiliation: "DeepMind"
+  scholar: "https://scholar.google.it/citations?user=kaAnZw0AAAAJ"
+  website:
+  title:
+
+masci:
+  name: "Jonathan Masci"
+  shortname: "J. Masci"
+  affiliation: "NNAISENSE"
+  scholar: "https://scholar.google.it/citations?user=HwDTzQEAAAAJ"
+  website:
+  title:
+
+gallieri:
+  name: "Marco Gallieri"
+  shortname: "M. Gallieri"
+  affiliation: "NNAISENSE"
+  scholar: "https://scholar.google.it/citations?user=moNjsXoAAAAJ"
+  website:
+  title:
+
+osendorfer:
+  name: "Christian Osendorfer"
+  shortname: "C. Osendorfer"
+  affiliation: "NNAISENSE"
+  scholar: "https://scholar.google.it/citations?user=RHg4zswAAAAJ"
+  website:
+  title:
+
+gomez:
+  name: "Faustino Gomez"
+  shortname: "F. Gomez"
+  affiliation: "NNAISENSE"
+  scholar: "https://scholar.google.it/citations?user=RsH53ecAAAAJ"
+  website:
+  title:
+
+matteucci:
+  name: "Matteo Matteucci"
+  shortname: "M. Matteucci"
+  affiliation: "Politecnico di Milano"
+  scholar: "https://scholar.google.it/citations?user=PdbEg5YAAAAJ"
+  website:
+  title: "Prof."
+
+malago:
+  name: "Luigi Malagò"
+  shortname: "L. Malagò"
+  affiliation: "RIST"
+  scholar: "https://scholar.google.it/citations?user=KEwsICcAAAAJ"
+  website:
+  title:
+
+frosio:
+  name: "Iuri Frosio"
+  shortname: "I. Frosio"
+  affiliation: "NVIDIA"
+  scholar: "https://scholar.google.com/citations?user=PCJJ8LkAAAAJ"
+  website:
+  title:
+
+lattari:
+  name: "Francesco Lattari"
+  shortname: "F. Lattari"
+  affiliation: "Politecnico di Milano"
+  scholar:
+  website:
+  title:
+
+cannici:
+  name: "Marco Cannici"
+  shortname: "M. Cannici"
+  affiliation: "Politecnico di Milano"
+  scholar: "https://scholar.google.it/citations?user=Xd9geyMAAAAJ"
+  website:
+  title:
+
+romanoni:
+  name: "Andrea Romanoni"
+  shortname: "A. Romanoni"
+  affiliation: "Amazon"
+  scholar: "https://scholar.google.it/citations?user=nqRe0vsAAAAJ"
+  website:
+  title:
+
+celli:
+  name: "Andrea Celli"
+  shortname: "A. Celli"
+  affiliation: "Facebook"
+  scholar: "https://scholar.google.it/citations?user=9wQscqEAAAAJ"
+  website:
+  title:
+
+gatti:
+  name: "Nicola Gatti"
+  shortname: "N. Gatti"
+  affiliation: "Politecnico di Milano"
+  scholar: "https://scholar.google.it/citations?user=j-HrYREAAAAJ"
+  website:
+  title: "Prof."
+
+romero:
+  name: "Adriana Romero"
+  shortname: "A. Romero"
+  affiliation: "Facebook"
+  scholar: "https://scholar.google.it/citations?user=Sm15FXIAAAAJ"
+  website:
+  title:
+
+cho:
+  name: "Kyunghyun Cho"
+  shortname: "K. Cho"
+  affiliation: "NYU"
+  scholar: "https://scholar.google.it/citations?user=0RAmmIAAAAAJ"
+  website: "https://kyunghyuncho.me/"
+  title:
+
+bengio:
+  name: "Yoshua Bengio"
+  shortname: "Y. Bengio"
+  affiliation: "University of Montreal, MILA"
+  scholar: "https://scholar.google.it/citations?user=kukA0LcAAAAJ"
+  website: "https://yoshuabengio.org/"
+  title:
+
+courville:
+  name: "Aaron Courville"
+  shortname: "A. Courville"
+  affiliation: "University of Montreal, MILA"
+  scholar: "https://scholar.google.it/citations?user=km6CP8cAAAAJ"
+  website:
+  title:
+
+kastner:
+  name: "Kyle Kastner"
+  shortname: "K. Kastner"
+  affiliation: "University of Montreal, MILA"
+  scholar: "https://scholar.google.it/citations?user=0XtGoMUAAAAJ"
+  website:
+  title:

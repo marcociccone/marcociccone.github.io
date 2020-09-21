@@ -1,0 +1,52 @@
+---
+layout:
+category: featured
+title: "NAIS-Net: Stable Deep Networks from Non-Autonomous Differential Equations"
+conference: "NeurIPS 2018"
+href: https://arxiv.org/abs/1804.07209
+short: "NAIS-Net"
+image: images/nais-net.jpg
+alt: "NAIS-Net overview"
+author: Marco Ciccone
+index: 2
+---
+
+{% assign people = site.data.people %}
+
+<!-- Work -->
+<tr style="border-bottom:1px solid #e5e5e5;">
+    <!-- IMAGE -->
+    <td>
+        <img class="workPicture" src="{{ page.image }}" alt="{{ page.alt }}">
+    </td>
+
+    <!-- TITLE AND INFO -->
+    <td>
+        <br>
+        <div id="indexWorkText">
+            <!-- Title + Link -->
+            <b>{% include link.html name=page.title href=page.href short=page.short %}</b>
+            <br>
+            <i>{{ page.conference}}</i> {% if page.award %} - <b>{{ page.award }}</b> {% endif%}
+            <br>
+            {% include link.html name="Poster" href="assets/posters/naisnet-poster.pdf" short="naisnet poster" %}
+        </div>
+        <br>
+        <!-- One sentence description -->
+        <div id="indexWorkText">
+            We propose a <i>non-autonomous</i> architecture where each block is derived from a time-invariant non-autonomous dynamical system. 
+            Each block is asymptotically stable and can be unrolled indefinitely upon convergence to an input-dependent attractor.
+        </div>
+        <br>
+
+        <!-- Collaborators -->
+        <div id="indexWorkText">
+            Joint work with 
+            {% include link.html name=people.gallieri.name href=people.gallieri.scholar short=people.gallieri.shortname %},
+            {% include link.html name=people.masci.name href=people.masci.scholar short=people.masci.shortname %},
+            {% include link.html name=people.osendorfer.name href=people.osendorfer.scholar short=people.osendorfer.shortname %} and
+            {% include link.html name=people.gomez.name href=people.gomez.scholar short=people.gomez.shortname %}
+        </div>
+        <br>
+    </td>
+</tr>

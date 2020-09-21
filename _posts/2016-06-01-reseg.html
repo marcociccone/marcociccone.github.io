@@ -1,0 +1,57 @@
+---
+layout:
+category: featured
+title: "ReSeg: A Recurrent Neural Network-Based Model for Semantic Segmentation"
+conference: "DeepVision CVPR Workshop 2016"
+award: "Best Paper Award"
+href: https://arxiv.org/abs/1511.07053
+short: Reseg
+image: images/reseg.jpg
+alt: Reseg overview
+author: Marco Ciccone
+index: 1
+---
+
+{% assign people = site.data.people %}
+
+<!-- Work -->
+<tr style="border-bottom:1px solid #e5e5e5;">
+    <!-- IMAGE -->
+    <td>
+        <img class="workPicture" src="{{ page.image }}" alt="{{ page.alt }}">
+    </td>
+
+    <!-- TITLE AND INFO -->
+    <td>
+        <br>
+        <div id="indexWorkText">
+            <!-- Title + Link -->
+            <b>{% include link.html name=page.title href=page.href short=page.short %}</b>
+            <br>
+            <i>{{ page.conference}}</i> {% if page.award %} - <b>{{ page.award }}</b> {% endif%}
+            <br>
+            {% include link.html name="Code" href="https://github.com/fvisin/reseg" short="reseg code" %}
+
+        </div>
+        <br>
+        <!-- One sentence description -->
+        <div id="indexWorkText">
+            We propose to use recurrent layers ({% include link.html name="ReNet" href="https://arxiv.org/abs/1505.00393" short="renet" %}) 
+            to capture global and local context in images and improve semantic segmentation performance.
+        </div>
+        <br>
+
+        <!-- Collaborators -->
+        <div id="indexWorkText">
+            Joint work with
+            {% include link.html name=people.visin.name href=people.visin.scholar short=people.visin.shortname %},
+            {% include link.html name=people.romero.name href=people.romero.scholar short=people.romero.shortname %},
+            {% include link.html name=people.kastner.name href=people.kastner.scholar short=people.kastner.shortname %},
+            {% include link.html name=people.cho.name href=people.cho.scholar short=people.cho.shortname %},
+            {% include link.html name=people.bengio.name href=people.bengio.scholar short=people.bengio.shortname %},
+            {% include link.html name=people.matteucci.name href=people.matteucci.scholar short=people.matteucci.shortname %} and
+            {% include link.html name=people.courville.name href=people.courville.scholar short=people.courville.shortname %}
+        </div>
+        <br>
+    </td>
+</tr>
