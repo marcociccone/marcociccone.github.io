@@ -30,18 +30,21 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  /* color:#494949; */
+  color:#000;
   font-weight: 500;
 }
 
 a {
   /*color:#39c;*/
-  color: #4a9ae1;
+  /* color: #4a9ae1; */
+  color: #1772d0;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  /* color:#069; */
+  color: #80CCFF;
 }
 
 a small {

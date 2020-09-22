@@ -47,8 +47,11 @@ body
 
 .workPicture
 {
-  width: 150px;
+  width: 800px;
+  height: 250px;
+  overflow: hidden;
   margin-right:24px;
+  object-fit: cover;
 }
 
 /* -------------- 
