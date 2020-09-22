@@ -45,7 +45,10 @@
         {% if page.url == node.url %}
         <li class="navbar_li" id="selected"><a href="{{node.url}}">{{node.title}}</a></li>
         {% else %}
-        <li class="navbar_li"><a href="{{node.url}}">{{node.title}}</a></li>
+            {% unless page.exclude == true %}
+                <li class="navbar_li"><a href="{{node.url}}">{{node.title}}</a></li>
+            {% endunless %}
+
         {% endif %}
     {% endfor %}
     </ul>

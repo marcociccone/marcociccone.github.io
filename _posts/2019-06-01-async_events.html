@@ -18,7 +18,7 @@ index: 5
 <tr style="border-bottom:1px solid #e5e5e5;">
     <!-- IMAGE -->
     <td>
-        <img class="workPicture" src="{{ page.image }}" alt="{{ page.alt }}">
+        <img class="workPicture" style="object-fit:cover;" src="{{ page.image }}" alt="{{ page.alt }}">
     </td>
 
     <!-- TITLE AND INFO -->
@@ -28,7 +28,9 @@ index: 5
             <!-- Title + Link -->
             <b>{% include link.html name=page.title href=page.href short=page.short %}</b>
             <br>
-            <i>{{ page.conference}}</i> {% if page.award %} - <b>{{ page.award }}</b> {% endif%}
+            <i>{{ page.conference}}</i> 
+            <br>
+            {% if page.award %} <b>{{ page.award }}</b> {% endif%}
             <br>
             {% include link.html name="Video" href="https://www.youtube.com/watch?v=JKRSeg3WrGw&list=PLeXWz-g2If97iGiuBHmnW8IFIxwvSeCHx&index=23" short="video async conv" %}
         </div>

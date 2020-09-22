@@ -2,47 +2,80 @@
 title: Publications
 layout: default
 ---
+{% assign people = site.data.people %}
 
 <h3>Conference Papers</h3>
-    <div class='paper_line'><a href="papers/aistats2020_vpsa.pdf">Value Preserving State-Action Abstractions</a>. <a id="appendixFont" href="papers/aistats2020_vpsa-appendix.pdf">Appendix</a> <a id="bibtexFont" href="bibtex/aistats2020_vpsa.html">BibTex</a></div>
-    <div class='paper_line'>David Abel, Nathan Umbanhowar, Khimya Khetarpal, Dilip Arumugam, Doina Precup, Michael L. Littman.</div>
-    <div class='paper_line'><i>AISTATS 2020</i>. (Early version from <a href="papers/spirl_vpsa.pdf">ICLR 2019 workshop</a>).</div>
-    <p></p>
+    <div class='paper_line'>
+        <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650137.pdf">A Differentiable Recurrent Surface for Asynchronous Event-Based Data</a>. 
+        <a id="appendixFont" href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650137-supp.pdf">Appendix</a> 
+        <a id="bibtexFont" href="bibtex/cannici2020differentiable.html">BibTex</a></div>
+    <div class='paper_line'>{{ people.cannici.name }}, {{ people.ciccone.name }}, {{ people.romanoni.name }}, {{ people.matteucci.name }}</div>
+    <div class='paper_line'><i>ECCV, 2020</i>.</div>
     <br>
 
-<h3>Journal Papers</h3>
-    <div class='paper_line'><a href="papers/cobs2019_value_of_abstr.pdf">The Value of Abstraction</a></font>. <a id="bibtexFont" href="bibtex/cobs2019_value_of_abstr.html">BibTex</a> </div>
-    <div class='paper_line'>Mark K. Ho, David Abel, Thomas L. Griffiths, Michael L. Littman.</div>
-    <div class='paper_line'><i>Current Opinions in Behavioral Sciences, 2019</i>.</div>
-    <p></p>
+    <div class='paper_line'>
+        <a href="https://arxiv.org/abs/1807.09480">Attention Mechanisms for Object Recognition with Event-Based Cameras</a>. 
+        <a id="bibtexFont" href="bibtex/cannici2019attention.html">BibTex</a></div>
+    <div class='paper_line'>{{ people.cannici.name }}, {{ people.ciccone.name }}, {{ people.romanoni.name }}, {{ people.matteucci.name }}</div>
+    <div class='paper_line'><i>WACV, 2019</i>.</div>
     <br>
 
-<h3>Theses</h3>
-    <div class='paper_line'><a href="https://david-abel.github.io/thesis.pdf">A Theory of Abstraction in Reinforcement Learning</a>. <a id="bibtexFont" href="bibtex/david_abel_phd_thesis_2020.html">BibTex</a></div>
-    <div class='paper_line'>David Abel. Advised by Prof. Michael Littman.</div>
-    <div class='paper_line'><i>Ph.D Thesis (Computer Science), Brown University, 2020</i>.</div>
-    <p></p>
-    <div class='paper_line'><a href="./papers/david_abel_ma_thesis_2019.pdf">Concepts in Bounded Rationality: Perspectives from Reinforcement Learning</a>. <a id="bibtexFont" href="bibtex/david_abel_ma_thesis_2019.html">BibTex</a></div>
-    <div class='paper_line'>David Abel. Advised by Prof. Joshua Schechter.</div>
-    <div class='paper_line'><i>Master’s Thesis (Philosophy), Brown University, 2019</i>.</div>
-    <p></p>
-    <div class='paper_line'><a href="./papers/david_abel_ms_thesis_2015.pdf">Learning to Plan in Complex Stochastic Domains</a>. <a id="bibtexFont" href="bibtex/david_abel_ms_thesis_2015.html">BibTex</a></div>
-    <div class='paper_line'>David Abel. Advised by Prof. Stefanie Tellex.</div>
-    <div class='paper_line'><i>Master’s Thesis (Computer Science), Brown University, 2015</i>.</div>
-    <p></p>
-    <div class='paper_line'><font color="#F0C0C0">Toward the Defense of Hypercomputation</font>. <i>(Revised Version Coming Soon)</i></div>
-    <div class='paper_line'>David Abel. Co-advised by Prof. Anna Moltchanova and Prof. Jason Decker.</div>
-    <div class='paper_line'><i>Bachelor’s Thesis (Philosophy), Carleton College, 2013</i>. </div>
-    <p></p>
+    <div class='paper_line'>
+        <a href="http://papers.nips.cc/paper/7566-nais-net-stable-deep-networks-from-non-autonomous-differential-equations.pdf">NAIS-Net: Stable Deep Networks from Non-Autonomous Differential Equations</a>. 
+        <a id="appendixFont" href="http://papers.nips.cc/paper/7566-nais-net-stable-deep-networks-from-non-autonomous-differential-equations-supplemental.zip">Appendix</a> 
+        <a id="bibtexFont" href="bibtex/ciccone2018naisnet.html">BibTex</a></div>
+    <div class='paper_line'>{{ people.ciccone.name }}, {{ people.gallieri.name }}, {{ people.masci.name }}, {{ people.osendorfer.name }}, {{ people.gomez.name }}</div>
+    <div class='paper_line'><i>NeurIPS, 2018</i>.</div>
+    <br>
 
 <h3>Workshops, Symposia, and Extended Abstracts</h3>
-    <div class='paper_line'><a href="https://jinnaiyuu.github.io/pdf/papers/SPiRL-19.pdf">Skill Discovery with Well-Defined Objectives</a>. <a id="bibtexFont" href="bibtex/wkshp_neurips2019_skill_disc.html">BibTex</a></div>
-    <div class='paper_line'>Yuu Jinnai, David Abel, Jee Won Park, D Ellis Hershkowitz, Michael L. Littman, George Konidaris.</div>
-    <div class='paper_line'><i>ICLR Workshop on Structure and Priors in RL, 2019</i>.</div>
+
+    <div class='paper_line'>
+        <a href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Cannici_Asynchronous_Convolutional_Networks_for_Object_Detection_in_Neuromorphic_Cameras_CVPRW_2019_paper.pdf">Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras</a>. 
+        <a id="appendixFont" href="https://openaccess.thecvf.com/content_CVPRW_2019/supplemental/Cannici_Asynchronous_Convolutional_Networks_CVPRW_2019_supplemental.pdf">Appendix</a>
+        <a id="bibtexFont" href="bibtex/cannici2019async.html">BibTex</a>
+    </div>
+    <div class='paper_line'>{{ people.romanoni.name }}, {{ people.ciccone.name }}, {{ people.visin.name }}, {{ people.matteucci.name }}</div>
+    <div class='paper_line'><i>Workshop on Event-based Vision and Smart Cameras - CVPR, 2019.</i> <b>(Best Paper Award)</b></div>
     <p></p>
 
+    <div class='paper_line'>
+        <a href="">ReConvNet: Video Object Segmentation with Spatio-Temporal Features Modulation</a>. 
+        <a id="bibtexFont" href="bibtex/lattari2018reconvnet.html">BibTex</a>
+    </div>
+    <div class='paper_line'>{{ people.lattari.name }}*, {{ people.ciccone.name }}*, {{ people.matteucci.name }}, {{ people.masci.name }}, {{ people.visin.name }}</div>
+    <div class='paper_line'><i>The 2018 DAVIS Challenge on Video Object Segmentation - CVPR Workshops, 2018</i>.</div>
+    <p></p>
+
+    <div class='paper_line'>
+        <a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w13/Romanoni_Multi-View_Stereo_with_ICCV_2017_paper.pdf">Multi-View Stereo with Single-View Semantic Mesh Refinement</a>. 
+        <a id="bibtexFont" href="bibtex/romanoni2017multiview.html">BibTex</a>
+    </div>
+    <div class='paper_line'>{{ people.romanoni.name }}, {{ people.ciccone.name }}, {{ people.visin.name }}, {{ people.matteucci.name }}</div>
+    <div class='paper_line'><i>3D Reconstruction Meets Semantic Workshop - ICCV, 2017</i>.</div>
+    <p></p>
+
+    <div class='paper_line'>
+        <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w12/papers/Visin_ReSeg_A_Recurrent_CVPR_2016_paper.pdf">ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation</a>. 
+        <a id="bibtexFont" href="bibtex/visin2016reseg.html">BibTex</a>
+    </div>
+    <div class='paper_line'>{{ people.visin.name }}, {{ people.ciccone.name }}, {{ people.romero.name }}, {{ people.kastner.name }}, {{ people.cho.name }}, {{ people.bengio.name }}, {{ people.matteucci.name }}, {{ people.courville.name }}</div>
+    <div class='paper_line'><i>DeepVision Workshop - CVPR, 2016</i>. <b>(Best Paper Award)</b></div>
+    <p></p>
+
+
 <h3>Preprints</h3>
-    <div class='paper_line'><a href="https://arxiv.org/pdf/2002.05518.pdf">Learning State Abstractions for Transfer in Continuous Control</a> </a>. <a id="bibtexFont" href="bibtex/arxiv20_sa_control.html">BibTex</a></div>
-    <div class='paper_line'>Kavosh Asadi, David Abel, Michael L. Littman.</div>
-    <div class='paper_line'><i>Preprint, 2020</i>.</div>
+    <div class='paper_line'>
+        <a href="https://arxiv.org/pdf/1912.07712.pdf">Coordination in Adversarial Sequential Team Games via Multi-Agent Deep Reinforcement Learning</a>. 
+        <a id="bibtexFont" href="bibtex/celli2019coordination.html">BibTex</a></div>
+    <div class='paper_line'>{{ people.celli.name }}, {{ people.ciccone.name }}, Raffaele Bongo, {{people.gatti.name}}.</div>
+    <div class='paper_line'><i>Preprint, 2019</i>.</div>
+    <p></p>
+
+
+<h3>Theses</h3>
+    <div class='paper_line'><a href="assets/msc_thesis.pdf">Semantic Segmentation of Urban Scenes using Recurrent Deep Neural Networks</a>. 
+    <a id="bibtexFont" href="bibtex/visin2016reseg.html">BibTex</a></div>
+    <div class='paper_line'>{{ people.ciccone.name }}. Advised by Ph.D {{ people.visin.name }} Prof. {{ people.matteucci.name}}.</div>
+    <div class='paper_line'><i>Master’s Thesis (Computer Science and Engineering), Politecnico di Milano, 2016</i>.</div>
     <p></p>
