@@ -47,7 +47,11 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-redirect-from
   #  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+whitelist:
+  - jekyll-redirect-from
 
 # Includes
 include: ['_pages']
