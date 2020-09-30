@@ -1,0 +1,56 @@
+- title: "Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras"
+  venue: "Workshop on Event-based Vision and Smart Cameras - CVPR"
+  year: 2019
+  link: "https://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Cannici_Asynchronous_Convolutional_Networks_for_Object_Detection_in_Neuromorphic_Cameras_CVPRW_2019_paper.pdf"
+  appendix: "https://openaccess.thecvf.com/content_CVPRW_2019/supplemental/Cannici_Asynchronous_Convolutional_Networks_CVPRW_2019_supplemental.pdf"
+  bibtex: "bibtex/cannici2019async.html"
+  award: "Best Paper Award"
+  authors:
+    - cannici
+    - ciccone
+    - romanoni
+    - matteucci
+
+- title: "ReConvNet: Video Object Segmentation with Spatio-Temporal Features Modulation"
+  venue: "The 2018 DAVIS Challenge on Video Object Segmentation - CVPR Workshops"
+  year: 2018
+  link: "https://arxiv.org/pdf/1806.05510.pdf"
+  appendix:
+  bibtex: "bibtex/lattari2018reconvnet.html"
+  award:
+  authors:
+    - lattari
+    - ciccone
+    - matteucci
+    - masci
+    - visin
+
+- title: "Multi-View Stereo with Single-View Semantic Mesh Refinement"
+  venue: "3D Reconstruction Meets Semantic Workshop - ICCV"
+  year: 2017
+  link: "https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w13/Romanoni_Multi-View_Stereo_with_ICCV_2017_paper.pdf"
+  appendix:
+  bibtex: "bibtex/romanoni2017multiview.html"
+  award:
+  authors:
+    - romanoni
+    - ciccone
+    - visin
+    - matteucci
+
+- title: "ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation"
+  venue: "DeepVision Workshop - CVPR"
+  year: 2016
+  link: "https://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w12/papers/Visin_ReSeg_A_Recurrent_CVPR_2016_paper.pdf"
+  appendix:
+  bibtex: "bibtex/visin2016reseg.html"
+  award: "Best Paper Award"
+  authors:
+    - visin
+    - ciccone
+    - romero
+    - kastner
+    - cho
+    - bengio
+    - matteucci
+    - courville

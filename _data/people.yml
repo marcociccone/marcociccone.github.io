@@ -12,7 +12,7 @@ visin:
   affiliation: "DeepMind"
   scholar: "https://scholar.google.it/citations?user=kaAnZw0AAAAJ"
   website:
-  title:
+  title: "Ph.D."
 
 masci:
   name: "Jonathan Masci"
@@ -99,6 +99,14 @@ celli:
   shortname: "A. Celli"
   affiliation: "Facebook"
   scholar: "https://scholar.google.it/citations?user=9wQscqEAAAAJ"
+  website:
+  title:
+
+bongo:
+  name: "Raffaele Bongo"
+  shortname: "R. Bongo"
+  affiliation: ""
+  scholar: ""
   website:
   title:
 

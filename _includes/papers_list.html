@@ -1,0 +1,35 @@
+{% assign people = site.data.people %}
+
+{% if include.papers %}
+<h3>{{ include.title }}</h3>
+    {% for paper in include.papers %}
+        <!-- Paper  -->
+        <div class='paper_line'>
+            <a href="{{paper.link}}">{{ paper.title }}</a>.
+            {% if paper.appendix %}<a id="appendixFont" href="{{paper.appendix}}">Appendix</a>{% endif %}
+            <a id="bibtexFont" href="{{ paper.bibtex }}">BibTex</a></div>
+        <!-- Authors -->
+        <div class='paper_line'>
+            {% assign authors = '' | split: '' %}
+            {% for key in paper.authors %}
+                {% assign authors = authors | push: people[key].name %}
+            {% endfor %}
+            {{ authors | join: ", " }}.
+
+            {% if paper.advisors %}
+                {% assign advisors = '' | split: '' %}
+                {% for key in paper.advisors %}
+                    {% assign advisors = advisors | push: people[key].name %}
+                {% endfor %}
+                Advised by {{ advisors | join: ", " }}
+            {% endif%}
+        </div>
+
+        <!-- Venue -->
+        <div class='paper_line'>
+            <i>{{ paper.venue }}, {{paper.year}}</i>. {% if paper.award %}<b>{{ paper.award }}</b>{% endif %}
+        </div>
+        <br>
+    {% endfor %}
+
+{% endif %}

@@ -1,0 +1,11 @@
+- title: "Semantic Segmentation of Urban Scenes using Recurrent Deep Neural Networks"
+  venue: "Master’s Thesis (Computer Science and Engineering), Politecnico di Milano"
+  year: 2016
+  link: "https://marcociccone.github.io/assets/msc_thesis.pdf"
+  appendix:
+  bibtex: "bibtex/visin2016reseg.html"
+  award:
+  authors: ciccone
+  advisors:
+    - visin
+    - matteucci

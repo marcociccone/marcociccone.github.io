@@ -1,0 +1,12 @@
+- title: "Coordination in Adversarial Sequential Team Games via Multi-Agent Deep Reinforcement Learning"
+  venue: "Arxiv"
+  year: 2019
+  link: "https://arxiv.org/pdf/1912.07712.pdf"
+  appendix:
+  bibtex: "bibtex/celli2019coordination.html"
+  award:
+  authors:
+    - celli
+    - ciccone
+    - bongo
+    - gatti

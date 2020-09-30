@@ -1,0 +1,39 @@
+- title: "A Differentiable Recurrent Surface for Asynchronous Event-Based Data"
+  venue: ECCV
+  year: 2020
+  link: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650137.pdf
+  appendix: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650137-supp.pdf
+  bibtex: bibtex/cannici2020differentiable.html
+  award:
+  authors:
+    - cannici
+    - ciccone
+    - romanoni
+    - matteucci
+
+- title: "Attention Mechanisms for Object Recognition with Event-Based Cameras"
+  venue: WACV
+  year: 2019
+  link: https://arxiv.org/pdf/1807.09480.pdf
+  appendix:
+  bibtex: bibtex/cannici2019attention.html
+  award:
+  authors:
+    - cannici
+    - ciccone
+    - romanoni
+    - matteucci
+
+- title: "NAIS-Net: Stable Deep Networks from Non-Autonomous Differential Equations"
+  venue: NeurIPS
+  year: 2018
+  link: http://papers.nips.cc/paper/7566-nais-net-stable-deep-networks-from-non-autonomous-differential-equations.pdf
+  appendix: http://papers.nips.cc/paper/7566-nais-net-stable-deep-networks-from-non-autonomous-differential-equations-supplemental.zip
+  bibtex: bibtex/ciccone2018naisnet.html
+  award:
+  authors:
+    - ciccone
+    - gallieri
+    - masci
+    - osendorfer
+    - gomez
