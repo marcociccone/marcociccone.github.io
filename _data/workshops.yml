@@ -24,6 +24,9 @@
     - matteucci
     - masci
     - visin
+  first:
+    - lattari
+    - ciccone
 
 - title: "Multi-View Stereo with Single-View Semantic Mesh Refinement"
   venue: "3D Reconstruction Meets Semantic Workshop - ICCV"

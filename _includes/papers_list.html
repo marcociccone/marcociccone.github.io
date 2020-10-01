@@ -12,14 +12,33 @@
         <div class='paper_line'>
             {% assign authors = '' | split: '' %}
             {% for key in paper.authors %}
-                {% assign authors = authors | push: people[key].name %}
+                <!-- Add "*" if more than one first author -->
+                {% if paper.first contains key %}
+                    {% assign is_first = "*" %}
+                {% else %}
+                    {% assign is_first = "" %}
+                {% endif %}
+                <!-- Highlight "me" as author with any style and add complete name to the list -->
+                {% comment %}
+                {% if key == site.author.me %}
+                    {% assign auth = "<u>" | append: people[key].name | append: "</u>" | append: is_first %}
+                {% else %}
+                    {% assign auth = people[key].name | append: is_first %}
+                {% endif %}
+                {% endcomment %}
+
+                {% assign auth = people[key].name | append: is_first %}
+                {% assign authors = authors | push: auth %}
             {% endfor %}
+            <!-- Create a string of authors -->
             {{ authors | join: ", " }}.
 
+            <!-- Create a string of Advisors (only if is thesis) -->
             {% if paper.advisors %}
                 {% assign advisors = '' | split: '' %}
                 {% for key in paper.advisors %}
-                    {% assign advisors = advisors | push: people[key].name %}
+                    {% assign adv = people[key].title | append: people[key].name %}
+                    {% assign advisors = advisors | push: adv %}
                 {% endfor %}
                 Advised by {{ advisors | join: ", " }}
             {% endif%}

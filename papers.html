@@ -2,13 +2,8 @@
 title: Publications
 layout: default
 ---
-{% assign people = site.data.people %}
-{% assign conferences = site.data.conferences %}
-{% assign workshops = site.data.workshops %}
-{% assign preprints = site.data.preprints %}
-{% assign theses = site.data.theses %}
 
-{% include papers_list.html title="Conference Papers" papers=conferences %}
-{% include papers_list.html title="Workshops, Symposia, and Extended Abstracts" papers=workshops %}
-{% include papers_list.html title="Preprints" papers=preprints %}
-{% include papers_list.html title="Theses" papers=theses %}
+{% include papers_list.html title="Conference Papers" papers=site.data.conferences %}
+{% include papers_list.html title="Workshops, Symposia, and Extended Abstracts" papers=site.data.workshops %}
+{% include papers_list.html title="Preprints" papers=site.data.preprints %}
+{% include papers_list.html title="Theses" papers=site.data.theses %}
