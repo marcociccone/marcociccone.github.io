@@ -54,7 +54,7 @@ body
   object-fit: cover;
 }
 
-/* -------------- 
+/* --------------
 /* --- PAPERS --- */
 /* -------------- */
 
@@ -77,6 +77,10 @@ body
   font-weight: 800;
 }
 
+#forthcomingFont
+{
+    color:#d65151 !important;
+}
 
 #bibtexFont
 {
@@ -86,7 +90,7 @@ body
 
 #appendixFont
 {
-  color:#E8AB6B !important; 
+  color:#E8AB6B !important;
 }
 
 

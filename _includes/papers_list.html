@@ -5,7 +5,12 @@
     {% for paper in include.papers %}
         <!-- Paper  -->
         <div class='paper_line'>
-            <a href="{{paper.link}}">{{ paper.title }}</a>.
+            {% if paper.link %}
+                <a href="{{paper.link}}">{{ paper.title }}</a>.
+            {% else %}
+                <a id="forthcomingFont" href="{{paper.link}}">{{ paper.title }}</a>.
+            {% endif %}
+
             {% if paper.appendix %}<a id="appendixFont" href="{{paper.appendix}}">Appendix</a>{% endif %}
             <a id="bibtexFont" href="{{ paper.bibtex }}">BibTex</a></div>
         <!-- Authors -->
@@ -41,12 +46,15 @@
                     {% assign advisors = advisors | push: adv %}
                 {% endfor %}
                 Advised by {{ advisors | join: ", " }}
-            {% endif%}
+            {% endif %}
         </div>
 
         <!-- Venue -->
         <div class='paper_line'>
             <i>{{ paper.venue }}, {{paper.year}}</i>. {% if paper.award %}<b>{{ paper.award }}</b>{% endif %}
+            {% if paper.early.link %}
+                (Earlier version: <a href="{{paper.early.link}}">{{ paper.early.venue}}</a>)
+            {% endif %}
         </div>
         <br>
     {% endfor %}

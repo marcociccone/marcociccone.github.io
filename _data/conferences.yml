@@ -1,3 +1,19 @@
+- title: "Multi-Agent Coordination through Signal Mediated Strategies (forthcoming)"
+  venue: AAMAS
+  year: 2021
+  link:
+  appendix:
+  bibtex: bibtex/cacciamani2021multiagent.html
+  award:
+  authors:
+    - cacciamani
+    - celli
+    - ciccone
+    - gatti
+  early:
+    venue: NeurIPS 2020 CooperativeAI Workshop
+    link: https://drive.google.com/file/d/1tWl-DWT53xy_QvX1WBtPEgKE9zS8bL7W/view
+
 - title: "A Differentiable Recurrent Surface for Asynchronous Event-Based Data"
   venue: ECCV
   year: 2020
