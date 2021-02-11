@@ -1,7 +1,7 @@
-- title: "Multi-Agent Coordination through Signal Mediated Strategies (forthcoming)"
+- title: "Multi-Agent Coordination in Adversarial Environments through Signal Mediated Strategies"
   venue: AAMAS
   year: 2021
-  link:
+  link: https://arxiv.org/pdf/2102.05026.pdf
   appendix:
   bibtex: bibtex/cacciamani2021multiagent.html
   award:
