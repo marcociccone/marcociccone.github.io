@@ -165,3 +165,75 @@ kastner:
   scholar: "https://scholar.google.it/citations?user=0XtGoMUAAAAJ"
   website:
   title:
+
+bottino:
+  name: "Andrea Bottino"
+  shortname: "A. Bottino"
+  affiliation: "Politecnico di Torino"
+  scholar: "https://scholar.google.com/citations?hl=en&user=YWhB9iYAAAAJ"
+  website:
+  title:
+
+strada:
+  name: "Francesco Strada"
+  shortname: "F. Strada"
+  affiliation: "Politecnico di Torino"
+  scholar: "https://scholar.google.com/citations?hl=en&user=54XtSMoAAAAJ"
+  website:
+  title:
+
+planamente:
+  name: "Mirco Planamente"
+  shortname: "M. Planamente"
+  affiliation: "Politecnico di Torino, Italian Institute of Technology (IIT)"
+  scholar: "https://scholar.google.com/citations?user=GIJ3h4AAAAAJ"
+  website:
+  title:
+
+plizzari:
+  name: "Chiara Plizzari"
+  shortname: "C. Plizzari"
+  affiliation: "Politecnico di Torino"
+  scholar: "https://scholar.google.com/citations?user=OlK2hyIAAAAJ"
+  website:
+  title:
+
+caputo:
+  name: "Barbara Caputo"
+  shortname: "B. Caputo"
+  affiliation: "Politecnico di Torino, Italian Institute of Technology (IIT)"
+  scholar: "https://scholar.google.com/citations?user=mHbdIAwAAAAJ"
+  website: "http://vandal.polito.it/index.php/people/barbaracaputo/"
+  title: "Prof."
+
+caldarola:
+  name: "Debora Caldarola"
+  shortname: "D. Caldarola"
+  affiliation: "Politecnico di Torino"
+  scholar: "https://scholar.google.it/citations?user=rX-VwlcAAAAJ"
+  website:
+  title:
+
+mancini:
+  name: "Massimiliano Mancini"
+  shortname: "M. Mancini"
+  affiliation: "University of Tübingen"
+  scholar: "https://scholar.google.it/citations?user=bqTPA8kAAAAJ"
+  website: "https://mancinimassimiliano.github.io/"
+  title:
+
+galasso:
+  name: "Fabio Galasso"
+  shortname: "F. Galasso"
+  affiliation: "Sapienza University of Rome"
+  scholar:   "https://scholar.google.com/citations?user=2gSuGBEAAAAJ"
+  website: "https://fgalasso.bitbucket.io/"
+  title: "Prof."
+
+rodola:
+  name: "Emanuele Rodolà"
+  shortname: "E. Rodolà"
+  affiliation: "Sapienza University of Rome"
+  scholar: "https://scholar.google.com/citations?user=-EH4wBYAAAAJ"
+  website: "https://sites.google.com/site/erodola/"
+  title: "Prof."

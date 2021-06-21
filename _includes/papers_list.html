@@ -51,7 +51,7 @@
 
         <!-- Venue -->
         <div class='paper_line'>
-            <i>{{ paper.venue }}, {{paper.year}}</i>. {% if paper.award %}<b>{{ paper.award }}</b>{% endif %}
+            <i>{{ paper.venue }}, {{paper.year}}</i>. {% if paper.award %}{{ paper.award }}{% endif %}
             {% if paper.early.link %}
                 (Earlier version: <a href="{{paper.early.link}}">{{ paper.early.venue}}</a>)
             {% endif %}

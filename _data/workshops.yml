@@ -1,10 +1,49 @@
+- title: "Cluster-driven Graph Federated Learning over Multiple Domains"
+  venue: "<a href='https://l2id.github.io/'>Learning from Limited and Imperfect Data (L2ID) Workshop</a> - CVPR"
+  year: 2021
+  link: https://openaccess.thecvf.com/content/CVPR2021W/LLID/papers/Caldarola_Cluster-Driven_Graph_Federated_Learning_Over_Multiple_Domains_CVPRW_2021_paper.pdf
+  appendix:
+  bibtex: "bibtex/caldarola2021FedCG.html"
+  award:
+  authors:
+    - caldarola
+    - mancini
+    - galasso
+    - ciccone
+    - rodola
+    - caputo
+  first:
+    - cannici
+    - plizzari
+    - planamente
+
+- title: "N-ROD: a Neuromorphic Dataset for Synthetic-to-Real Domain Adaptation"
+  venue: "<a href='https://tub-rip.github.io/eventvision2021/'>Workshop on Event-based Vision and Smart Cameras</a> - CVPR"
+  year: 2021
+  link: https://openaccess.thecvf.com/content/CVPR2021W/EventVision/papers/Cannici_N-ROD_A_Neuromorphic_Dataset_for_Synthetic-to-Real_Domain_Adaptation_CVPRW_2021_paper.pdf
+  appendix:
+  bibtex: "bibtex/cannici2021nrod.html"
+  award:
+  authors:
+    - cannici
+    - plizzari
+    - planamente
+    - ciccone
+    - bottino
+    - matteucci
+    - caputo
+  first:
+    - cannici
+    - plizzari
+    - planamente
+
 - title: "Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras"
-  venue: "Workshop on Event-based Vision and Smart Cameras - CVPR"
+  venue: "<a href='http://rpg.ifi.uzh.ch/CVPR19_event_vision_workshop.html'>Workshop on Event-based Vision and Smart Cameras</a> - CVPR"
   year: 2019
   link: "https://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Cannici_Asynchronous_Convolutional_Networks_for_Object_Detection_in_Neuromorphic_Cameras_CVPRW_2019_paper.pdf"
   appendix: "https://openaccess.thecvf.com/content_CVPRW_2019/supplemental/Cannici_Asynchronous_Convolutional_Networks_CVPRW_2019_supplemental.pdf"
   bibtex: "bibtex/cannici2019async.html"
-  award: "Best Paper Award"
+  award: "<b>Best Paper Award</b>"
   authors:
     - cannici
     - ciccone
@@ -12,7 +51,7 @@
     - matteucci
 
 - title: "ReConvNet: Video Object Segmentation with Spatio-Temporal Features Modulation"
-  venue: "The 2018 DAVIS Challenge on Video Object Segmentation - CVPR Workshops"
+  venue: "<a href='https://davischallenge.org/challenge2018/semisupervised.html'>The 2018 DAVIS Challenge on Video Object Segmentation</a> - CVPR Workshops"
   year: 2018
   link: "https://arxiv.org/pdf/1806.05510.pdf"
   appendix:
@@ -47,7 +86,7 @@
   link: "https://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w12/papers/Visin_ReSeg_A_Recurrent_CVPR_2016_paper.pdf"
   appendix:
   bibtex: "bibtex/visin2016reseg.html"
-  award: "Best Paper Award"
+  award: "<b>Best Paper Award</b>"
   authors:
     - visin
     - ciccone

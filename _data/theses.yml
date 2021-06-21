@@ -1,7 +1,19 @@
+- title: "On Iterative and Conditional Computation for Visual Representation Learning"
+  venue: "Ph.D. Thesis (Computer Science and Engineering), Politecnico di Milano"
+  year: 2021
+  link: "https://marcociccone.github.io/assets/phdthesis-ciccone.pdf"
+  appendix:
+  bibtex: "bibtex/ciccone2021iterative.html"
+  award: "</br><a href='https://marcociccone.github.io/assets/phd-defense-ciccone.pdf'>[Ph.D Defense Slides]</a>"
+  authors: ciccone
+  advisors:
+    - matteucci
+    - masci
+
 - title: "Semantic Segmentation of Urban Scenes using Recurrent Deep Neural Networks"
-  venue: "Master’s Thesis (Computer Science and Engineering), Politecnico di Milano"
+  venue: "M.Sc. Thesis (Computer Science and Engineering), Politecnico di Milano"
   year: 2016
-  link: "https://marcociccone.github.io/assets/msc_thesis.pdf"
+  link: "https://marcociccone.github.io/assets/mscthesis-ciccone.pdf"
   appendix:
   bibtex: "bibtex/visin2016reseg.html"
   award:

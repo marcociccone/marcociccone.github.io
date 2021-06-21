@@ -1,3 +1,20 @@
+- title: "DA4Event: towards bridging the Sim-to-Real Gap for Event Cameras using Domain Adaptation"
+  venue: IROS + RAL
+  year: 2021
+  link: https://arxiv.org/pdf/2103.12768.pdf
+  appendix:
+  bibtex: bibtex/planamente2021da4event.html
+  award:
+  authors:
+    - planamente
+    - plizzari
+    - cannici
+    - ciccone
+    - strada
+    - bottino
+    - matteucci
+    - caputo
+
 - title: "Multi-Agent Coordination in Adversarial Environments through Signal Mediated Strategies"
   venue: AAMAS
   year: 2021
