@@ -206,6 +206,14 @@ caputo:
   website: "http://vandal.polito.it/index.php/people/barbaracaputo/"
   title: "Prof."
 
+ciliberto:
+  name: "Carlo Ciliberto"
+  shortname: "C. Ciliberto"
+  affiliation: "University College London (UCL)"
+  scholar: "https://scholar.google.it/citations?user=XUcUAisAAAAJ"
+  website: "https://cciliber.github.io/"
+  title: "Prof."
+
 caldarola:
   name: "Debora Caldarola"
   shortname: "D. Caldarola"

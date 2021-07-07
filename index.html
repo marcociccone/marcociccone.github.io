@@ -8,24 +8,31 @@ redirect_from:
 
 {% assign people = site.data.people %}
 {% assign matteo = "Prof. " | append: people.matteucci.name %}
-{% assign jonathan = "Dr. " | append: people.masci.name %}
+{% assign barbara = "Prof. " | append: people.caputo.name %}
+{% assign carlo = "Prof. " | append: people.ciliberto.name %}
+{% assign jonathan = people.masci.name %}
 
 <h3>Welcome!</h3>
 <p>
     I am Postdoctoral Researcher in the {% include link.html name="VANDAL"
     href="http://vandal.polito.it/" %} group at Politecnico di Torino.</br>
+    I am also part of the {% include link.html name="ELLIS Postdoc Program" href="https://ellis.eu/projects/bridging-theory-and-algorithms-for-lifelong-learning" %} working with
+    {% include link.html name=barbara href=people.caputo.website short=people.caputo.name %} and
+    {% include link.html name=carlo href=people.ciliberto.website short=people.ciliberto.name %}.
+</p>
+<p>
     I received my Ph.D. in Computer Science at Politecnico di Milano advised by
-    {% include link.html name=matteo href=people.matteucci.scholar short=people.matteucci.shortname %}
-    and {% include link.html name=jonathan href=people.masci.scholar short=people.masci.shortname %},
+    {% include link.html name=matteo href=people.matteucci.scholar short=people.matteucci.name %}
+    and {% include link.html name=jonathan href=people.masci.scholar short=people.masci.name %},
     where I focused on developing deep learning models for computer vision problems that
     perform {% include link.html name="iterative and conditional"  href="https://www.politesi.polimi.it/handle/10589/170720" %} representation learning.
 </p>
 <p>
-During my Ph.D I was also a research intern at {% include link.html
-name="NVIDIA" href="https://www.nvidia.com/en-us/research" %} and
-{% include link.html name="NNAISENSE" href="https://nnaisense.com" %}.<br>
-Previously, I proudly worked at the development of {% include link.html
-name="Horus" href="https://blogs.nvidia.com/blog/2016/10/27/wearable-device-for-blind-visually-impaired/" %}.
+    During my Ph.D I was also a research intern at {% include link.html
+    name="NVIDIA" href="https://www.nvidia.com/en-us/research" %} and
+    {% include link.html name="NNAISENSE" href="https://nnaisense.com" %}.<br>
+    Previously, I proudly worked at the development of {% include link.html
+    name="Horus" href="https://blogs.nvidia.com/blog/2016/10/27/wearable-device-for-blind-visually-impaired/" %}.
 </p>
 </br>
 
