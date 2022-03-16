@@ -1,3 +1,16 @@
+- title: "Public Information Representation for Adversarial Team Games"
+  venue: "<a href='https://www.cooperativeai.com/neurips-2021/workshop-papers#h.xor1ca7sxmd'>CooperativeAI Workshop</a> - NeurIPS"
+  year: 2021
+  link: https://arxiv.org/abs/2201.10377
+  appendix:
+  bibtex: "bibtex/carminati2021public.html"
+  award: "<b>Best Paper Award / Spotlight Talk</b>"
+  authors:
+    - carminati
+    - cacciamani
+    - ciccone
+    - gatti
+
 - title: "Cluster-driven Graph Federated Learning over Multiple Domains"
   venue: "<a href='https://l2id.github.io/'>Learning from Limited and Imperfect Data (L2ID) Workshop</a> - CVPR"
   year: 2021

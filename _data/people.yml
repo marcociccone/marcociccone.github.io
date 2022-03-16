@@ -245,3 +245,27 @@ rodola:
   scholar: "https://scholar.google.com/citations?user=-EH4wBYAAAAJ"
   website: "https://sites.google.com/site/erodola/"
   title: "Prof."
+
+cermelli:
+  name: "Fabio Cermelli"
+  shortname: "F. Cermelli"
+  affiliation: "Politecnico di Torino, IIT"
+  scholar: "https://scholar.google.com/citations?user=-fEOFbMAAAAJ"
+
+fontanel:
+  name: "Dario Fontanel"
+  shortname: "D. Fontanel"
+  affiliation: "Politecnico di Torino"
+  scholar: "https://scholar.google.com/citations?user=rCraUbgAAAAJ"
+
+tavera:
+  name: "Antonio Tavera"
+  shortname: "A. Tavera"
+  affiliation: "Politecnico di Torino"
+  scholar: "https://scholar.google.com/citations?user=oQfTuXMAAAAJ"
+
+carminati:
+  name: "Luca Carminati"
+  shortname: "L. Carminati"
+  affiliation: "Politecnico di Milano"
+  scholar: "https://scholar.google.com/citations?user=fc0Rfs4AAAAJ"
