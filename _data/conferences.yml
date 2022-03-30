@@ -1,3 +1,17 @@
+- title: "Speeding up Heterogeneous Federated Learning with Sequentially Trained Superclients"
+  venue: ICPR
+  year: 2022
+  link: https://arxiv.org/pdf/2201.10899.pdf
+  appendix:
+  bibtex: bibtex/zaccone2022speeding.html
+  award:
+  authors:
+    - zaccone
+    - rizzardi
+    - caldarola
+    - ciccone
+    - caputo
+
 - title: "Incremental Learning in Semantic Segmentation from Image Labels"
   venue: CVPR
   year: 2022
