@@ -273,9 +273,19 @@ carminati:
 zaccone:
   name: "Riccardo Zaccone"
   shortname: "R. Zaccone"
-  affiliation: "Politecnico di Milano"
+  affiliation: "Politecnico di Torino"
 
 rizzardi:
   name: "Andrea Rizzardi"
   shortname: "A. Rizzardi"
-  affiliation: "Politecnico di Milano"
+  affiliation: "Politecnico di Torino"
+
+fantauzzo:
+  name: "Lidia Fantauzzo"
+  shortname: "L. Fantauzzo"
+  affiliation: "Politecnico di Torino"
+
+fani:
+  name: "Eros Fanì"
+  shortname: "E. Fanì"
+  affiliation: "Politecnico di Torino"
