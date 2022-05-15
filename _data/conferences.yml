@@ -1,3 +1,19 @@
+- title: "A Marriage between Adversarial Team Games and 2-player Games: Enabling Abstractions, No-regret Learning, and Subgame Solving (Paper Forthcoming)"
+  venue: ICML
+  year: 2022
+  link:
+  appendix:
+  bibtex: bibtex/carminati2022marriage.html
+  award:
+  authors:
+    - carminati
+    - cacciamani
+    - ciccone
+    - gatti
+  early:
+    venue: NeurIPS 2021 CooperativeAI Workshop
+    link: https://arxiv.org/abs/2201.10377
+
 - title: "Speeding up Heterogeneous Federated Learning with Sequentially Trained Superclients"
   venue: ICPR
   year: 2022
