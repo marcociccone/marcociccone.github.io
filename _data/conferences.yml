@@ -1,7 +1,38 @@
-- title: "A Marriage between Adversarial Team Games and 2-player Games: Enabling Abstractions, No-regret Learning, and Subgame Solving (Paper Forthcoming)"
+- title: "Improving Generalization in Federated Learning by Seeking Flat Minima"
+  venue: "ECCV"
+  year: 2022
+  link: "https://arxiv.org/pdf/2203.11834.pdf"
+  appendix:
+  bibtex: "bibtex/caldarola2022improving.html"
+  award:
+  authors:
+    - caldarola
+    - caputo
+    - ciccone
+
+- title: "FedDrive: Generalizing Federated Learning to Semantic Segmentation in Autonomous Driving"
+  venue: "IROS"
+  year: 2022
+  link: "https://arxiv.org/pdf/2202.13670.pdf"
+  appendix:
+  bibtex: "bibtex/fantauzzo2022feddrive.html"
+  award:
+  authors:
+    - fantauzzo
+    - fani
+    - caldarola
+    - tavera
+    - cermelli
+    - ciccone
+    - caputo
+  first:
+    - fantauzzo
+    - fani
+
+- title: "A Marriage between Adversarial Team Games and 2-player Games: Enabling Abstractions, No-regret Learning, and Subgame Solving"
   venue: ICML
   year: 2022
-  link:
+  link: https://arxiv.org/pdf/2206.09161.pdf
   appendix:
   bibtex: bibtex/carminati2022marriage.html
   award:
@@ -12,7 +43,7 @@
     - gatti
   early:
     venue: NeurIPS 2021 CooperativeAI Workshop
-    link: https://arxiv.org/abs/2201.10377
+    link: https://arxiv.org/pdf/2201.10377.pdf
 
 - title: "Speeding up Heterogeneous Federated Learning with Sequentially Trained Superclients"
   venue: ICPR
@@ -41,6 +72,10 @@
     - tavera
     - ciccone
     - caputo
+  first:
+    - cermelli
+    - fontanel
+    - tavera
 
 - title: "DA4Event: towards bridging the Sim-to-Real Gap for Event Cameras using Domain Adaptation"
   venue: IROS + RAL
@@ -58,6 +93,10 @@
     - bottino
     - matteucci
     - caputo
+  first:
+    - planamente
+    - plizzari
+    - cannici
 
 - title: "Multi-Agent Coordination in Adversarial Environments through Signal Mediated Strategies"
   venue: AAMAS
