@@ -1,3 +1,25 @@
+- title: "Learning Across Domains and Devices: Style-Driven Source-Free Domain Adaptation in Clustered Federated Learning"
+  venue: "WACV"
+  year: 2023
+  link: "https://arxiv.org/pdf/2210.02326.pdf"
+  appendix:
+  bibtex: "bibtex/shenaj2023ladd.html"
+  award:
+  authors:
+    - shenaj
+    - fani
+    - toldo
+    - caldarola
+    - tavera
+    - michieli
+    - ciccone
+    - zanuttigh
+    - caputo
+  first:
+    - shenaj
+    - fani
+
+
 - title: "Improving Generalization in Federated Learning by Seeking Flat Minima"
   venue: "ECCV"
   year: 2022

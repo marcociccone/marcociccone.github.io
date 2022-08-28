@@ -289,3 +289,23 @@ fani:
   name: "Eros Fanì"
   shortname: "E. Fanì"
   affiliation: "Politecnico di Torino"
+
+toldo:
+  name: "Marco Toldo"
+  shortname: "M. Toldo"
+  affiliation: "Università degli Studi di Padova"
+
+michieli:
+  name: "Umberto Michieli"
+  shortname: "U. Michieli"
+  affiliation: "Samsung Research"
+
+shenaj:
+  name: "Donald Shenaj"
+  shortname: "D. Shenaj"
+  affiliation: "Università degli Studi di Padova"
+
+zanuttigh:
+  name: "Pietro Zanuttigh"
+  shortname: "P. Zanuttigh"
+  affiliation: "Università degli Studi di Padova"
