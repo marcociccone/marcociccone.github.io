@@ -1,1 +1,17 @@
-
+- title: "Schedule-Robust Online Continual Learning"
+  venue: "Under Review"
+  year: 2022
+  link: "https://arxiv.org/abs/2210.05561"
+  appendix:
+  bibtex: "bibtex/wang2022scroll.html"
+  award:
+  authors:
+    - wang
+    - ciccone
+    - luise
+    - yapp
+    - pontil
+    - ciliberto
+  first:
+    - wang
+    - ciccone

@@ -18,6 +18,11 @@
   first:
     - shenaj
     - fani
+  senior:
+    - michieli
+    - ciccone
+    - zanuttigh
+    - caputo
 
 
 - title: "Improving Generalization in Federated Learning by Seeking Flat Minima"
@@ -30,6 +35,9 @@
   authors:
     - caldarola
     - caputo
+    - ciccone
+  first:
+    - caldarola
     - ciccone
 
 - title: "FedDrive: Generalizing Federated Learning to Semantic Segmentation in Autonomous Driving"

@@ -309,3 +309,28 @@ zanuttigh:
   name: "Pietro Zanuttigh"
   shortname: "P. Zanuttigh"
   affiliation: "Università degli Studi di Padova"
+
+luise:
+  name: "Giulia Luise"
+  shortname: "G. Luise"
+  affiliation: "UCL"
+
+pontil:
+  name: "Massimiliano Pontil"
+  shortname: "M. Pontil"
+  affiliation: "IIT, UCL"
+
+ciliberto:
+  name: "Carlo Ciliberto"
+  shortname: "C. Ciliberto"
+  affiliation: "UCL"
+
+yapp:
+  name: "Andrew Yapp"
+  shortname: "A. Yapp"
+  affiliation: ""
+
+wang:
+  name: "Ruohan Wang"
+  shortname: "R. Wang"
+  affiliation: "I2R, A*STAR"

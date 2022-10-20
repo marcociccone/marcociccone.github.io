@@ -23,16 +23,24 @@
                 {% else %}
                     {% assign is_first = "" %}
                 {% endif %}
+
+                <!-- Add "†" if more than one senior advisor-->
+                {% if paper.senior contains key %}
+                    {% assign is_senior = "&dagger;" %}
+                {% else %}
+                    {% assign is_senior = "" %}
+                {% endif %}
+
                 <!-- Highlight "me" as author with any style and add complete name to the list -->
                 {% comment %}
                 {% if key == site.author.me %}
-                    {% assign auth = "<u>" | append: people[key].name | append: "</u>" | append: is_first %}
+                    {% assign auth = "<u>" | append: people[key].name | append: "</u>" | append: is_first | append: is_senior %}
                 {% else %}
-                    {% assign auth = people[key].name | append: is_first %}
+                    {% assign auth = people[key].name | append: is_first| append: is_senior %}
                 {% endif %}
                 {% endcomment %}
 
-                {% assign auth = people[key].name | append: is_first %}
+                {% assign auth = people[key].name | append: is_first | append: is_senior %}
                 {% assign authors = authors | push: auth %}
             {% endfor %}
             <!-- Create a string of authors -->
