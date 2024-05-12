@@ -1,3 +1,31 @@
+- title: "From Charts to Atlas: Merging Latent Spaces into One"
+  venue: "NeurReps Workshop @ NeurIPS"
+  year: 2023
+  link: https://arxiv.org/abs/2311.06547
+  appendix:
+  bibtex: "bibtex/x.html"
+  award:
+  authors:
+    - crisostomi
+    - cannistraci
+    - moschella
+    - barbiero
+    - ciccone
+    - lio
+    - rodola
+
+- title: "Window-based Model Averaging Improves Generalization in Heterogeneous Federated Learning"
+  venue: "WiCV @ ICCV"
+  year: 2023
+  link: https://openaccess.thecvf.com/content/ICCV2023W/WiCV/html/Caldarola_Window-Based_Model_Averaging_Improves_Generalization_in_Heterogeneous_Federated_Learning_ICCVW_2023_paper.html
+  appendix:
+  bibtex: "bibtex/x.html"
+  award:
+  authors:
+    - caldarola
+    - caputo
+    - ciccone
+
 - title: "Public Information Representation for Adversarial Team Games"
   venue: "<a href='https://www.cooperativeai.com/neurips-2021/workshop-papers#h.xor1ca7sxmd'>CooperativeAI Workshop</a> - NeurIPS"
   year: 2021
@@ -25,10 +53,6 @@
     - ciccone
     - rodola
     - caputo
-  first:
-    - cannici
-    - plizzari
-    - planamente
 
 - title: "N-ROD: a Neuromorphic Dataset for Synthetic-to-Real Domain Adaptation"
   venue: "<a href='https://tub-rip.github.io/eventvision2021/'>Workshop on Event-based Vision and Smart Cameras</a> - CVPR"

@@ -1,0 +1,13 @@
+{% include news.html %}
+{% assign people = site.data.people %}
+</br>
+
+
+<!-- FEATURED PUBLICATIONS -->
+<h3> Featured Work </h3>
+<table style="margin-top:-12px;">
+  {% for post in site.posts %}
+    {{ post }}
+  {% endfor %}
+</table>
+</br>

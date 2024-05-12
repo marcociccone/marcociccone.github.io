@@ -1,0 +1,17 @@
+- title: "Accelerating Federated Learning via Sequential Training of Grouped Heterogeneous Clients"
+  venue: "IEEE Access"
+  year: 2024
+  link: "https://ieeexplore.ieee.org/abstract/document/10497106"
+  appendix:
+  bibtex:  "bibtex/x.html"
+  award:
+  authors:
+    - silvi
+    - rizzardi
+    - caldarola
+    - caputo
+    - ciccone
+  first:
+    - silvi
+    - rizzardi
+    - caldarola

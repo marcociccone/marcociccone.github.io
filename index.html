@@ -12,61 +12,36 @@ redirect_from:
 {% assign carlo = "Prof. " | append: people.ciliberto.name %}
 {% assign jonathan = people.masci.name %}
 
-<h3>Welcome!</h3>
 <p>
-    I am Postdoctoral Researcher in the {% include link.html name="VANDAL"
+    I am an {% include link.html name="ELLIS" href="https://ellis.eu/projects/bridging-theory-and-algorithms-for-lifelong-learning" %} Postdoc Researcher in the {% include link.html name="Visual And Multimodal Applied Learning"
     href="http://vandal.polito.it/" %} group at Politecnico di Torino.</br>
-    I am also part of the {% include link.html name="ELLIS Postdoc Program" href="https://ellis.eu/projects/bridging-theory-and-algorithms-for-lifelong-learning" %} working with
-    {% include link.html name=barbara href=people.caputo.website short=people.caputo.name %} and
-    {% include link.html name=carlo href=people.ciliberto.website short=people.ciliberto.name %}.
 </p>
 <p>
     I received my Ph.D. in Computer Science at Politecnico di Milano advised by
     {% include link.html name=matteo href=people.matteucci.scholar short=people.matteucci.name %}
     and {% include link.html name=jonathan href=people.masci.scholar short=people.masci.name %},
-    where I focused on developing deep learning models for computer vision problems that
-    perform {% include link.html name="iterative and conditional"  href="https://www.politesi.polimi.it/handle/10589/170720" %} representation learning.
-</p>
-<p>
-    During my Ph.D I was also a research intern at {% include link.html
+    where I focused on {% include link.html name="iterative and conditional"  href="https://www.politesi.polimi.it/handle/10589/170720" %} representation learning.<br>
+    During my Ph.D. I was also a research intern at {% include link.html
     name="NVIDIA" href="https://www.nvidia.com/en-us/research" %} and
     {% include link.html name="NNAISENSE" href="https://nnaisense.com" %}.<br>
     Previously, I proudly worked at the development of {% include link.html
-    name="Horus" href="https://blogs.nvidia.com/blog/2016/10/27/wearable-device-for-blind-visually-impaired/" %}.
+    name="Horus" href="https://www.youtube.com/watch?v=9TEJC5fXnu8" %}.
 </p>
-</br>
 
-<!-- NEWS -->
-{% include news.html %}
-{% assign people = site.data.people %}
-</br>
+<p>I was Competition Track co-chair at NeurIPS in 2021, 2022 and 2023.</p>
+
+
 
 <!-- INTERESTS -->
 <h3> Interests </h3>
-<p>My research focuses on representation learning and Meta/Continual Learning.</p>
 <p>
-  I am currently interested in understanding Meta/Continual Learning algorithms and scaling them to complex tasks.
-  My long term research mission is to understand and build intelligent modular systems that can solve new problems with very weak supervision and few data by re-using and improving previously acquired skills.
+My research agenda is based on three pillars:
+<ul>
+    <li><b>Decentralized Learning</b>: to enable collaboration across users and sharing knowledge while preserving privacy and distributing computational efforts.</li>
+    <li><b>Continual Learning</b>: to enable continuous knowledge integration allowing models to keep improving without forgetting previously acquired skills, unless on purpose.</li>
+    <li><b>Modular Learning</b>: for creating models that are more reusable, efficient, and maintainable.</li>
+</ul>
 </p>
-
-<p>
-  I recently gained interest in Federated Learning, especially in understanding and developing algorithms to mitigate the issue of clients statistical heterogeneity.
-</p>
-<p>
-  Although I mainly work on computer vision problems, I have always been fascinated by Game Theory and Multi-Agent Reinforcement Learning (MARL).
-  In particular, I am interested in the study of the learning dynamics of multiple agents and the emergence of cooperative behaviors.
-</p>
-</br>
-
-
-<!-- FEATURED PUBLICATIONS -->
-<h3> Featured Work </h3>
-<table style="margin-top:-12px;">
-  {% for post in site.posts %}
-    {{ post }}
-  {% endfor %}
-</table>
-</br>
 
 
 <!-- PERSONAL -->

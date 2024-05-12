@@ -334,3 +334,83 @@ wang:
   name: "Ruohan Wang"
   shortname: "R. Wang"
   affiliation: "I2R, A*STAR"
+
+silvi:
+  name: "Andrea Silvi"
+  shortname: "A. Silvi"
+  affiliation: "Politecnico di Torino"
+
+cavagnero:
+  name: "Niccolò Cavagnero"
+  shortname: "N. Cavagnero"
+  affiliation: "Politecnico di Torino"
+
+santos:
+  name: "Fernando Dos Santos"
+  sharname: "F. Dos Santos"
+  affiliation: "INRIA"
+
+averta:
+  name: "Giuseppe Averta"
+  shortname: "G. Averta"
+  affiliation: "Politecnico di Torino"
+
+tommasi:
+  name: "Tatiana Tommasi"
+  shortname: "T. Tommasi"
+  affiliation: "Politecnico di Torino"
+
+rech:
+  name: "Paolo Rech"
+  shortname: "P. Rech"
+  affiliation: "Università degli Studi di Trento"
+
+pistilli:
+  name: "Francesca Pistilli"
+  shortname: "F. Pistilli"
+  affiliation: "Politecnico di Torino"
+
+cuttano:
+  name: "Claudia Cuttano"
+  shortname: "C. Cuttano"
+  affiliation: "Politecnico di Torino"
+
+camoriano:
+  name: "Raffaello Camoriano"
+  shortname: "R. Camoriano"
+  affiliation: "Politecnico di Torino"
+
+rosi:
+  name: Gabriele Rosi
+  shortname: G. Rosi
+  affiliation: "Politecnico di Torino"
+
+iurada:
+  name: "Leonardo Iurada"
+  shortname: "L. Iurada"
+  affiliation: "Politecnico di Torino"
+
+moschella:
+  name: "Luca Moschella"
+  shortname: "L. Moschella"
+  affiliation: "Università La Sapienza"
+
+cannistraci:
+  name: "Irene Cannistraci"
+  shortname: "I. Cannistraci"
+  affiliation: "Università La Sapienza"
+
+lio:
+  name: "Pietro Lio"
+  shortname: "P. Lio"
+  affiliation: "University of Cambridge"
+
+crisostomi:
+  name: "Donato Crisostomi"
+  shortname: "D. Crisostomi"
+  affiliation: "Università La Sapienza"
+
+barbiero:
+  name: "Pietro Barbiero"
+  shortname: "P. Barbiero"
+  affiliation: "UNiversity of Cambridge"

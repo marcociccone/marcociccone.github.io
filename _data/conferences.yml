@@ -1,3 +1,46 @@
+- title: "Accelerating Heterogeneous Federated Learning with Closed-form Classifiers"
+  venue: "ICML"
+  year: 2024
+  link: ""
+  appendix:
+  bibtex: "bibtex/x.html"
+  award:
+  authors:
+    - fani
+    - camoriano
+    - caputo
+    - ciccone
+
+
+- title: "Finding Lottery Tickets in Vision Models via Data-driven Spectral Foresight Pruning"
+  venue: "CVPR"
+  year: 2024
+  link: ""
+  appendix:
+  bibtex: "bibtex/x.html"
+  award:
+  authors:
+    - iurada
+    - ciccone
+    - tommasi
+
+
+- title: "PEM: Prototype-based Efficient MaskFormer for Image Segmentation"
+  venue: "CVPR"
+  year: 2024
+  link: "https://arxiv.org/abs/2402.19422"
+  appendix:
+  bibtex: "bibtex/x.html"
+  award:
+  authors:
+    - cavagnero
+    - rosi
+    - cuttano
+    - pistilli
+    - ciccone
+    - averta
+    - cermelli
+
 - title: "Learning Across Domains and Devices: Style-Driven Source-Free Domain Adaptation in Clustered Federated Learning"
   venue: "WACV"
   year: 2023
@@ -24,6 +67,21 @@
     - zanuttigh
     - caputo
 
+
+- title: "Transient-Fault-Aware Design and Training to Enhance DNNs Reliability with Zero-Overhead"
+  venue: "IOLTS"
+  year: 2022
+  link: "https://ieeexplore.ieee.org/abstract/document/9897813"
+  appendix:
+  bibtex: "bibtex/x.html"
+  award:
+  authors:
+    - cavagnero
+    - santos
+    - ciccone
+    - averta
+    - tommasi
+    - rech
 
 - title: "Improving Generalization in Federated Learning by Seeking Flat Minima"
   venue: "ECCV"
