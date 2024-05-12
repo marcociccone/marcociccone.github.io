@@ -38,7 +38,7 @@ h3, h4, h5, h6 {
 a {
   /*color:#39c;*/
   /* color: #4a9ae1; */
-  color: #1772d0;
+  color: #275ecc;
   text-decoration:none;
 }
 
@@ -59,7 +59,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:1020px;
+  width:1120px;
   margin: auto;
 }
 
@@ -115,7 +115,7 @@ header {
 }
 
 section {
-  width:720px;
+  width:800px;
   float:right;
   padding-bottom:50px;
   padding-left:150px;
