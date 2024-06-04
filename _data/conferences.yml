@@ -1,9 +1,9 @@
 - title: "Accelerating Heterogeneous Federated Learning with Closed-form Classifiers"
   venue: "ICML"
   year: 2024
-  link: ""
+  link: "https://arxiv.org/abs/2406.01116"
   appendix:
-  bibtex: "bibtex/x.html"
+  bibtex: "bibtex/fani2024fed3r.html"
   award:
   authors:
     - fani
@@ -15,9 +15,9 @@
 - title: "Finding Lottery Tickets in Vision Models via Data-driven Spectral Foresight Pruning"
   venue: "CVPR"
   year: 2024
-  link: ""
+  link: "https://iurada.github.io/PX"
   appendix:
-  bibtex: "bibtex/x.html"
+  bibtex: "bibtex/iurada2024px.html"
   award:
   authors:
     - iurada
@@ -30,7 +30,7 @@
   year: 2024
   link: "https://arxiv.org/abs/2402.19422"
   appendix:
-  bibtex: "bibtex/x.html"
+  bibtex: "bibtex/cavagnero2024pem.html"
   award:
   authors:
     - cavagnero
