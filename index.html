@@ -8,20 +8,17 @@ redirect_from:
 
 {% assign people = site.data.people %}
 {% assign matteo = "Prof. " | append: people.matteucci.name %}
-{% assign barbara = "Prof. " | append: people.caputo.name %}
 {% assign carlo = "Prof. " | append: people.ciliberto.name %}
 {% assign jonathan = people.masci.name %}
 
 <p>
-    I am an {% include link.html name="ELLIS" href="https://ellis.eu/projects/bridging-theory-and-algorithms-for-lifelong-learning" %} Postdoc Researcher in the {% include link.html name="Visual And Multimodal Applied Learning"
-    href="http://vandal.polito.it/" %} group at Politecnico di Torino.</br>
+    I am a Postdoctoral Fellow at {% include link.html name="Vector Institute" href="https://vectorinstitute.ai" %} in Toronto working with {% include link.html name="Colin Raffel" href="https://colinraffel.com" %}.</br>
 </p>
 <p>
+    Before, I was an {% include link.html name="ELLIS" href="https://ellis.eu/" %} Postdoctoral Researcher at Politecnico di Torino and University College London (UCL).</br>
     I received my Ph.D. in Computer Science at Politecnico di Milano advised by
-    {% include link.html name=matteo href=people.matteucci.scholar short=people.matteucci.name %}
-    and {% include link.html name=jonathan href=people.masci.scholar short=people.masci.name %},
-    where I focused on {% include link.html name="iterative and conditional"  href="https://www.politesi.polimi.it/handle/10589/170720" %} representation learning.<br>
-    During my Ph.D. I was also a research intern at {% include link.html
+    {% include link.html name=matteo href=people.matteucci.scholar short=people.matteucci.name %} and {% include link.html name=jonathan href=people.masci.scholar short=people.masci.name %} working on iterative and conditional computation for visual models. </br>
+    During my Ph.D., I was also a research intern at {% include link.html
     name="NVIDIA" href="https://www.nvidia.com/en-us/research" %} and
     {% include link.html name="NNAISENSE" href="https://nnaisense.com" %}.<br>
     Previously, I proudly worked at the development of {% include link.html
@@ -33,7 +30,7 @@ redirect_from:
 
 
 <!-- INTERESTS -->
-<h3> Interests </h3>
+<h3> Research Interests </h3>
 <p>
 My research agenda is based on three pillars:
 <ul>
@@ -41,6 +38,7 @@ My research agenda is based on three pillars:
     <li><b>Continual Learning</b>: to enable continuous knowledge integration allowing models to keep improving without forgetting previously acquired skills, unless on purpose.</li>
     <li><b>Modular Learning</b>: for creating models that are more reusable, efficient, and maintainable.</li>
 </ul>
+You can read more about my vision for the future of machine learning systems in my {% include link.html name="research statement" href="assets/rs-ciccone.pdf" %}.
 </p>
 
 
