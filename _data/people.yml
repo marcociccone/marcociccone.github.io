@@ -234,7 +234,7 @@ galasso:
   name: "Fabio Galasso"
   shortname: "F. Galasso"
   affiliation: "Sapienza University of Rome"
-  scholar:   "https://scholar.google.com/citations?user=2gSuGBEAAAAJ"
+  scholar: "https://scholar.google.com/citations?user=2gSuGBEAAAAJ"
   website: "https://fgalasso.bitbucket.io/"
   title: "Prof."
 
@@ -319,11 +319,6 @@ pontil:
   name: "Massimiliano Pontil"
   shortname: "M. Pontil"
   affiliation: "IIT, UCL"
-
-ciliberto:
-  name: "Carlo Ciliberto"
-  shortname: "C. Ciliberto"
-  affiliation: "UCL"
 
 yapp:
   name: "Andrew Yapp"
@@ -414,3 +409,9 @@ barbiero:
   name: "Pietro Barbiero"
   shortname: "P. Barbiero"
   affiliation: "UNiversity of Cambridge"
+
+cagnasso:
+  name: "Pietro Cagnasso"
+  shortname: "P. Cagnasso"
+  affiliation: "Politecnico di Torino"
+

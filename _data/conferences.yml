@@ -1,3 +1,28 @@
+- title: "Efficient Model Editing with Task-Localized Sparse Fine-tuning"
+  venue: "ICLR"
+  year: 2025
+  link: "https://openreview.net/forum?id=TDyE2iuvyc"
+  appendix:
+  bibtex: "bibtex/iurada2025talos.html"
+  award:
+  authors:
+    - iurada
+    - ciccone
+    - tommasi
+
+- title: "Beyond Local Sharpness: Communication-Efficient Global Sharpness-aware Minimization for Federated Learning"
+  venue: "CVPR"
+  year: 2025
+  link: "https://arxiv.org/abs/2412.03752"
+  appendix:
+  bibtex: "bibtex/caldarola2025beyond.html"
+  award:
+  authors:
+    - caldarola
+    - cagnasso
+    - caputo
+    - ciccone
+
 - title: "Accelerating Heterogeneous Federated Learning with Closed-form Classifiers"
   venue: "ICML"
   year: 2024
@@ -11,7 +36,6 @@
     - caputo
     - ciccone
 
-
 - title: "Finding Lottery Tickets in Vision Models via Data-driven Spectral Foresight Pruning"
   venue: "CVPR"
   year: 2024
@@ -23,7 +47,6 @@
     - iurada
     - ciccone
     - tommasi
-
 
 - title: "PEM: Prototype-based Efficient MaskFormer for Image Segmentation"
   venue: "CVPR"
@@ -66,7 +89,6 @@
     - ciccone
     - zanuttigh
     - caputo
-
 
 - title: "Transient-Fault-Aware Design and Training to Enhance DNNs Reliability with Zero-Overhead"
   venue: "IOLTS"
