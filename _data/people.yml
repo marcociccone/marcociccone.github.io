@@ -408,10 +408,29 @@ crisostomi:
 barbiero:
   name: "Pietro Barbiero"
   shortname: "P. Barbiero"
-  affiliation: "UNiversity of Cambridge"
+  affiliation: "University of Cambridge"
 
 cagnasso:
   name: "Pietro Cagnasso"
   shortname: "P. Cagnasso"
   affiliation: "Politecnico di Torino"
 
+licciardi:
+  name: "Alessandro Licciardi"
+  shortname: "A. Licciardi"
+  affiliation: "Politecnico di Torino"
+
+leo:
+  name: "Davide Leo"
+  shortname: "D. Leo"
+  affiliation: "Politecnico di Torino"
+
+masone:
+  name: "Carlo Masone"
+  shortname: "C. Masone"
+  affiliation: "Politecnico di Torino"
+
+karimireddy:
+  name: "Sai Praneeth Karimireddy"
+  shortname: "S. P. Karimireddy"
+  affiliation: "University of Southern California"

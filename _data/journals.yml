@@ -1,3 +1,16 @@
+- title: "Resource-Efficient Personalization in Federated Learning with Closed-Form Classifiers"
+  venue: "IEEE Access"
+  year: 2025
+  link: "https://ieeexplore.ieee.org/abstract/document/10946159"
+  appendix:
+  bibtex:  "bibtex/fani2025oll.html"
+  award:
+  authors:
+    - fani
+    - camoriano
+    - caputo
+    - ciccone
+
 - title: "Accelerating Federated Learning via Sequential Training of Grouped Heterogeneous Clients"
   venue: "IEEE Access"
   year: 2024

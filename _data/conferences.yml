@@ -1,3 +1,30 @@
+- title: "Communication-Efficient Heterogeneous Federated Learning with Generalized Heavy-Ball Momentum"
+  venue: "TMLR"
+  year: 2025
+  link: "https://openreview.net/forum?id=LNoFjcLywb"
+  appendix:
+  bibtex: "bibtex/zaccone2025ghbm.html"
+  award:
+  authors:
+    - zaccone
+    - karimireddy
+    - masone
+    - ciccone
+
+- title: "Interaction-Aware Gaussian Weighting for Clustered Federated Learning"
+  venue: "ICML"
+  year: 2025
+  link: "https://arxiv.org/abs/2502.03340"
+  appendix:
+  bibtex: "bibtex/licciardi2025gwc.html"
+  award:
+  authors:
+    - licciardi
+    - leo
+    - fani
+    - caputo
+    - ciccone
+
 - title: "Efficient Model Editing with Task-Localized Sparse Fine-tuning"
   venue: "ICLR"
   year: 2025
