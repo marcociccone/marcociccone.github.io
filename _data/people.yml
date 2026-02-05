@@ -434,3 +434,77 @@ karimireddy:
   name: "Sai Praneeth Karimireddy"
   shortname: "S. P. Karimireddy"
   affiliation: "University of Southern California"
+
+jeddi:
+  name: "Ahmadreza Jeddi"
+  shortname: "A. Jeddi"
+  affiliation: "University of Toronto"
+
+taati:
+  name: "Babak Taati"
+  shortname: "B. Taati"
+  affiliation: "University of Toronto"
+
+rinaldi:
+  name: "Filippo Rinaldi"
+  shortname: "F. Rinaldi"
+  affiliation: "University of Modena and Reggio Emilia"
+
+panariello:
+  name: "Aniello Panariello"
+  shortname: "A. Panariello"
+  affiliation: "University of Modena and Reggio Emilia"
+
+salici:
+  name: "Giacomo Salici"
+  shortname: "G. Salici"
+  affiliation: "University of Modena and Reggio Emilia"
+
+liufy:
+  name: "Fengyuan Liu"
+  shortname: "F. Liu"
+  affiliation: "McGill University"
+
+porrello:
+  name: "Angelo Porrello"
+  shortname: "A. Porrello"
+  affiliation: "University of Modena and Reggio Emilia"
+
+calderara:
+  name: "Simone Calderara"
+  shortname: "S. Calderara"
+  affiliation: "University of Modena and Reggio Emilia"
+
+altintas:
+  name: "Gül Sena Altıntaş"
+  shortname: "G. S. Altıntaş"
+  affiliation: "University of Toronto"
+
+ehghaghi:
+  name: "Malikeh Ehghaghi"
+  shortname: "M. Ehghaghi"
+  affiliation: "University of Toronto"
+
+lester:
+  name: "Brian Lester"
+  shortname: "B. Lester"
+  affiliation: "Google, University of Toronto"
+zhaow:
+  name: "Wanru Zhao"
+  shortname: "W. Zhao"
+  affiliation: "University of Cambridge"
+
+raffel:
+  name: "Colin Raffel"
+  shortname: "C. Raffel"
+  affiliation: "University of Toronto"
+
+laskaridis:
+  name: "Stefanos Laskaridis"
+  shortname: "S. Laskaridis"
+  affiliation: "Brave"
+
+horvath:
+  name: "Samuel Horváth"
+  shortname: "S. Horváth"
+  affiliation: "MBZUAI"

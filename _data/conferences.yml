@@ -1,3 +1,45 @@
+- title: "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation"
+  venue: "ICLR"
+  year: 2026
+  link: "https://openreview.net/forum?id=RzYXb5YWBs"
+  appendix:
+  bibtex: "bibtex/jeddi2026loopformer.html"
+  award:
+  authors:
+    - jeddi
+    - ciccone
+    - taati
+
+- title: "Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models"
+  venue: "ICLR"
+  year: 2026
+  link: https://arxiv.org/abs/2510.09658
+  appendix:
+  bibtex: "bibtex/rinaldi2026gradient.html"
+  award:
+  authors:
+    - rinaldi
+    - panariello
+    - salici
+    - liufy
+    - ciccone
+    - porrello
+    - calderara
+
+- title: "Schedule-Robust Continual Learning"
+  venue: "TPAMI"
+  year: 2025
+  link: https://ieeexplore.ieee.org/abstract/document/11192236
+  appendix:
+  bibtex: "bibtex/wang2025schedule.html"
+  award:
+  authors:
+    - wang
+    - ciccone
+    - pontil
+    - ciliberto
+
+
 - title: "Communication-Efficient Heterogeneous Federated Learning with Generalized Heavy-Ball Momentum"
   venue: "TMLR"
   year: 2025

@@ -1,12 +1,28 @@
-- title: "Coordination in Adversarial Sequential Team Games via Multi-Agent Deep Reinforcement Learning"
+- title: "FlexRank: Nested Low-Rank Knowledge Decomposition for Adaptive Model Deployment"
   venue: "Arxiv"
-  year: 2019
-  link: "https://arxiv.org/pdf/1912.07712.pdf"
+  year: 2026
+  link: "https://arxiv.org/abs/2602.02680"
   appendix:
-  bibtex: "bibtex/celli2019coordination.html"
+  bibtex: "bibtex/zaccone2026flexrank.html"
   award:
   authors:
-    - celli
+    - zaccone
+    - laskaridis
     - ciccone
-    - bongo
-    - gatti
+    - horvath
+
+- title: "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior"
+  venue: "Arxiv"
+  year: 2025
+  link: "https://arxiv.org/abs/2512.20757"
+  appendix:
+  bibtex: "bibtex/altintas2025toksuite.html"
+  award:
+  authors:
+    - altintas
+    - ehghaghi
+    - lester
+    - liufy
+    - zhaow
+    - ciccone
+    - raffel
