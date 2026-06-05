@@ -1,3 +1,47 @@
+- title: "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior"
+  venue: "ICML"
+  year: 2026
+  link: "https://arxiv.org/abs/2512.20757"
+  appendix:
+  bibtex: "bibtex/altintas2025toksuite.html"
+  award: "Oral"
+  authors:
+    - altintas
+    - ehghaghi
+    - lester
+    - liufy
+    - zhaow
+    - ciccone
+    - raffel
+
+- title: "FlexRank: Nested Low-Rank Knowledge Decomposition for Adaptive Model Deployment"
+  venue: "ICML"
+  year: 2026
+  link: "https://arxiv.org/abs/2602.02680"
+  appendix:
+  bibtex: "bibtex/zaccone2026flexrank.html"
+  award: "Spotlight"
+  authors:
+    - zaccone
+    - laskaridis
+    - ciccone
+    - horvath
+
+- title: "The Appeal and Reality of Recycling LoRAs with Adaptive Merging"
+  venue: "ICML"
+  year: 2026
+  link: "https://arxiv.org/abs/2602.12323"
+  appendix:
+  bibtex: "bibtex/liu2026recycling.html"
+  award:
+  authors:
+    - liuhk
+    - je
+    - ciccone
+    - xuzl
+    - prasanthyss
+    - raffel
+
 - title: "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation"
   venue: "ICLR"
   year: 2026
